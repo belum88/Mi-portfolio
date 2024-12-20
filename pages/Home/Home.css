@@ -1,0 +1,56 @@
+.home {
+    width: 100%;
+    border: var(--border);
+    padding: var(--spacing);
+  }
+  
+  .home > article {
+    width: 100%;
+    padding: var(--spacing);
+    gap: var(--spacing);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .body-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--spacing);
+    gap: var(--spacing);
+  }
+  
+  .body-article img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .personal-information {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--spacing);
+    gap: var(--spacing);
+  }
+  
+  .personal-information > h3 {
+    font-size: 3rem;
+    -webkit-text-stroke: 1.5px black;
+    color: var(--orange-red);
+  }
+  
+  .personal-information > span {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #ff4000c6;
+  }
+  
+  .personal-information > p {
+    text-align: justify;
+  }

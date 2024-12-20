@@ -1,0 +1,84 @@
+.project-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--spacing);
+    gap: var(--spacing);
+  }
+  
+  .project-card > .header {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: var(--spacing);
+  }
+  
+  .project-card > .header > h2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .project-card > .header > div {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing);
+  }
+  
+  .project-card > .header > div > a > img {
+    width: 30px;
+    height: 30px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .project-card > .header > div > a > img:hover {
+    scale: 1.1;
+    filter: invert(41%) sepia(75%) saturate(5794%) hue-rotate(0deg)
+      brightness(104%) contrast(108%);
+  }
+  
+  .project-card > img {
+    width: 100%;
+    height: 250px;
+    border-radius: 0.3rem;
+    object-fit: cover;
+  }
+  
+  .project-card > .detail {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing);
+  }
+  
+  .project-card > .detail > .description {
+    width: 100%;
+    height: 90%;
+    text-align: justify;
+  }
+  
+  .project-card > .detail > .tech {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    color: var(--yellow);
+    margin-bottom: 10px;
+  }
+    .project-card > .detail > .tech {
+      color: var(--highlight);
+    }
